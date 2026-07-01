@@ -1,33 +1,44 @@
-plugins {
-    id "com.android.application"
-    id "kotlin-android"
-    id "dev.flutter.flutter-gradle-plugin"
+buildscript {
+    ext.kotlin_version = '1.9.0'
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.1.0'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
 }
 
-android {
-    namespace "com.example.quran_app"
-    compileSdk 34
-
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_18
-        targetCompatibility JavaVersion.VERSION_18
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
     }
+}
 
-    kotlinOptions {
-        jvmTarget = '18'
-    }
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(':app')
+}
 
-    defaultConfig {
-        applicationId "com.example.quran_app"
-        minSdk 21
-        targetSdk 34
-        versionCode 1
-        versionName "1.0.0"
-    }
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
 
-    buildTypes {
-        release {
-            signingConfig signingConfigs.debug
+// هاد الأسطر كتصلح مشكل الـ v1 embedding تلقائياً فـ السيرفر
+subprojects {
+    afterEvaluate { project ->
+        if (project.hasProperty('android')) {
+            project.android {
+                if (project.android.hasProperty('viewBinding')) {
+                    viewBinding.enabled = true
+                }
+            }
         }
     }
 }
