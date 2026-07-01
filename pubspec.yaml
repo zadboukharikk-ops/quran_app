@@ -1,0 +1,63 @@
+name: quran_app
+description: "تطبيق إسلامي متكامل - القرآن الكريم، الأحاديث النبوية، الأذكار، الأدعية، مواقيت الصلاة، القبلة، أسماء الله الحسنى، التقويم الهجري"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # إدارة الحالة
+  flutter_riverpod: ^2.5.1
+
+  # التخزين المحلي
+  shared_preferences: ^2.2.3
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+  path_provider: ^2.1.3
+
+  # مشاركة ونسخ
+  share_plus: ^11.0.0
+
+  # الشبكة (لمزامنة مستقبلية: مواقيت صلاة، تحديث محتوى)
+  http: ^1.2.1
+
+  # الموقع الجغرافي (مواقيت الصلاة والقبلة)
+  geolocator: ^12.0.0
+
+  # البوصلة (اتجاه القبلة)
+  flutter_compass: ^0.8.1
+
+  # التقويم الهجري
+  hijri: ^3.0.0
+
+  # الأيقونات
+  cupertino_icons: ^1.0.6
+
+  # اهتزاز (المسبحة الإلكترونية)
+  vibration: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/data/
+    - assets/audio/
+    - assets/icons/
+
+  # لإضافة خطوط عربية مخصصة لاحقًا (مثل: خط عثماني للقرآن)
+  # fonts:
+  #   - family: UthmanicHafs
+  #     fonts:
+  #       - asset: assets/fonts/UthmanicHafs.ttf

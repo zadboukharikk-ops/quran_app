@@ -1,0 +1,803 @@
+{
+  "_note_ar": "بيانات وصفية أساسية (اسم/رقم/عدد آيات/مكان نزول) لكل السور الـ114، لاستخدامها في عرض فهرس القرآن. نص الآيات نفسه غير مضمّن هنا ويجب جلبه من مصدر موثّق.",
+  "surahs": [
+    {
+      "number": 1,
+      "name": "الفاتحة",
+      "englishName": "Al-Fatihah",
+      "revelationType": "Makkah",
+      "ayahCount": 7
+    },
+    {
+      "number": 2,
+      "name": "البقرة",
+      "englishName": "Al-Baqarah",
+      "revelationType": "Madinah",
+      "ayahCount": 286
+    },
+    {
+      "number": 3,
+      "name": "آل عمران",
+      "englishName": "Aal-i-Imraan",
+      "revelationType": "Madinah",
+      "ayahCount": 200
+    },
+    {
+      "number": 4,
+      "name": "النساء",
+      "englishName": "An-Nisaa",
+      "revelationType": "Madinah",
+      "ayahCount": 176
+    },
+    {
+      "number": 5,
+      "name": "المائدة",
+      "englishName": "Al-Maaidah",
+      "revelationType": "Madinah",
+      "ayahCount": 120
+    },
+    {
+      "number": 6,
+      "name": "الأنعام",
+      "englishName": "Al-An'aam",
+      "revelationType": "Makkah",
+      "ayahCount": 165
+    },
+    {
+      "number": 7,
+      "name": "الأعراف",
+      "englishName": "Al-A'raaf",
+      "revelationType": "Makkah",
+      "ayahCount": 206
+    },
+    {
+      "number": 8,
+      "name": "الأنفال",
+      "englishName": "Al-Anfaal",
+      "revelationType": "Madinah",
+      "ayahCount": 75
+    },
+    {
+      "number": 9,
+      "name": "التوبة",
+      "englishName": "At-Taubah",
+      "revelationType": "Madinah",
+      "ayahCount": 129
+    },
+    {
+      "number": 10,
+      "name": "يونس",
+      "englishName": "Yunus",
+      "revelationType": "Makkah",
+      "ayahCount": 109
+    },
+    {
+      "number": 11,
+      "name": "هود",
+      "englishName": "Hud",
+      "revelationType": "Makkah",
+      "ayahCount": 123
+    },
+    {
+      "number": 12,
+      "name": "يوسف",
+      "englishName": "Yusuf",
+      "revelationType": "Makkah",
+      "ayahCount": 111
+    },
+    {
+      "number": 13,
+      "name": "الرعد",
+      "englishName": "Ar-Ra'd",
+      "revelationType": "Madinah",
+      "ayahCount": 43
+    },
+    {
+      "number": 14,
+      "name": "ابراهيم",
+      "englishName": "Ibrahim",
+      "revelationType": "Makkah",
+      "ayahCount": 52
+    },
+    {
+      "number": 15,
+      "name": "الحجر",
+      "englishName": "Al-Hijr",
+      "revelationType": "Makkah",
+      "ayahCount": 99
+    },
+    {
+      "number": 16,
+      "name": "النحل",
+      "englishName": "An-Nahl",
+      "revelationType": "Makkah",
+      "ayahCount": 128
+    },
+    {
+      "number": 17,
+      "name": "الإسراء",
+      "englishName": "Al-Israa",
+      "revelationType": "Makkah",
+      "ayahCount": 111
+    },
+    {
+      "number": 18,
+      "name": "الكهف",
+      "englishName": "Al-Kahf",
+      "revelationType": "Makkah",
+      "ayahCount": 110
+    },
+    {
+      "number": 19,
+      "name": "مريم",
+      "englishName": "Maryam",
+      "revelationType": "Makkah",
+      "ayahCount": 98
+    },
+    {
+      "number": 20,
+      "name": "طه",
+      "englishName": "Taa-Haa",
+      "revelationType": "Makkah",
+      "ayahCount": 135
+    },
+    {
+      "number": 21,
+      "name": "الأنبياء",
+      "englishName": "Al-Anbiyaa",
+      "revelationType": "Makkah",
+      "ayahCount": 112
+    },
+    {
+      "number": 22,
+      "name": "الحج",
+      "englishName": "Al-Hajj",
+      "revelationType": "Madinah",
+      "ayahCount": 78
+    },
+    {
+      "number": 23,
+      "name": "المؤمنون",
+      "englishName": "Al-Muminoon",
+      "revelationType": "Makkah",
+      "ayahCount": 118
+    },
+    {
+      "number": 24,
+      "name": "النور",
+      "englishName": "An-Noor",
+      "revelationType": "Madinah",
+      "ayahCount": 64
+    },
+    {
+      "number": 25,
+      "name": "الفرقان",
+      "englishName": "Al-Furqaan",
+      "revelationType": "Makkah",
+      "ayahCount": 77
+    },
+    {
+      "number": 26,
+      "name": "الشعراء",
+      "englishName": "Ash-Shu'araa",
+      "revelationType": "Makkah",
+      "ayahCount": 227
+    },
+    {
+      "number": 27,
+      "name": "النمل",
+      "englishName": "An-Naml",
+      "revelationType": "Makkah",
+      "ayahCount": 93
+    },
+    {
+      "number": 28,
+      "name": "القصص",
+      "englishName": "Al-Qasas",
+      "revelationType": "Makkah",
+      "ayahCount": 88
+    },
+    {
+      "number": 29,
+      "name": "العنكبوت",
+      "englishName": "Al-Ankaboot",
+      "revelationType": "Makkah",
+      "ayahCount": 69
+    },
+    {
+      "number": 30,
+      "name": "الروم",
+      "englishName": "Ar-Room",
+      "revelationType": "Makkah",
+      "ayahCount": 60
+    },
+    {
+      "number": 31,
+      "name": "لقمان",
+      "englishName": "Luqman",
+      "revelationType": "Makkah",
+      "ayahCount": 34
+    },
+    {
+      "number": 32,
+      "name": "السجدة",
+      "englishName": "As-Sajda",
+      "revelationType": "Makkah",
+      "ayahCount": 30
+    },
+    {
+      "number": 33,
+      "name": "الأحزاب",
+      "englishName": "Al-Ahzaab",
+      "revelationType": "Madinah",
+      "ayahCount": 73
+    },
+    {
+      "number": 34,
+      "name": "سبأ",
+      "englishName": "Saba",
+      "revelationType": "Makkah",
+      "ayahCount": 54
+    },
+    {
+      "number": 35,
+      "name": "فاطر",
+      "englishName": "Faatir",
+      "revelationType": "Makkah",
+      "ayahCount": 45
+    },
+    {
+      "number": 36,
+      "name": "يس",
+      "englishName": "Yaseen",
+      "revelationType": "Makkah",
+      "ayahCount": 83
+    },
+    {
+      "number": 37,
+      "name": "الصافات",
+      "englishName": "As-Saaffaat",
+      "revelationType": "Makkah",
+      "ayahCount": 182
+    },
+    {
+      "number": 38,
+      "name": "ص",
+      "englishName": "Saad",
+      "revelationType": "Makkah",
+      "ayahCount": 88
+    },
+    {
+      "number": 39,
+      "name": "الزمر",
+      "englishName": "Az-Zumar",
+      "revelationType": "Makkah",
+      "ayahCount": 75
+    },
+    {
+      "number": 40,
+      "name": "غافر",
+      "englishName": "Ghafir",
+      "revelationType": "Makkah",
+      "ayahCount": 85
+    },
+    {
+      "number": 41,
+      "name": "فصلت",
+      "englishName": "Fussilat",
+      "revelationType": "Makkah",
+      "ayahCount": 54
+    },
+    {
+      "number": 42,
+      "name": "الشورى",
+      "englishName": "Ash-Shura",
+      "revelationType": "Makkah",
+      "ayahCount": 53
+    },
+    {
+      "number": 43,
+      "name": "الزخرف",
+      "englishName": "Az-Zukhruf",
+      "revelationType": "Makkah",
+      "ayahCount": 89
+    },
+    {
+      "number": 44,
+      "name": "الدخان",
+      "englishName": "Ad-Dukhaan",
+      "revelationType": "Makkah",
+      "ayahCount": 59
+    },
+    {
+      "number": 45,
+      "name": "الجاثية",
+      "englishName": "Al-Jaathiya",
+      "revelationType": "Makkah",
+      "ayahCount": 37
+    },
+    {
+      "number": 46,
+      "name": "الأحقاف",
+      "englishName": "Al-Ahqaf",
+      "revelationType": "Makkah",
+      "ayahCount": 35
+    },
+    {
+      "number": 47,
+      "name": "محمد",
+      "englishName": "Muhammad",
+      "revelationType": "Madinah",
+      "ayahCount": 38
+    },
+    {
+      "number": 48,
+      "name": "الفتح",
+      "englishName": "Al-Fath",
+      "revelationType": "Madinah",
+      "ayahCount": 29
+    },
+    {
+      "number": 49,
+      "name": "الحجرات",
+      "englishName": "Al-Hujuraat",
+      "revelationType": "Madinah",
+      "ayahCount": 18
+    },
+    {
+      "number": 50,
+      "name": "ق",
+      "englishName": "Qaaf",
+      "revelationType": "Makkah",
+      "ayahCount": 45
+    },
+    {
+      "number": 51,
+      "name": "الذاريات",
+      "englishName": "Adh-Dhaariyat",
+      "revelationType": "Makkah",
+      "ayahCount": 60
+    },
+    {
+      "number": 52,
+      "name": "الطور",
+      "englishName": "At-Tur",
+      "revelationType": "Makkah",
+      "ayahCount": 49
+    },
+    {
+      "number": 53,
+      "name": "النجم",
+      "englishName": "An-Najm",
+      "revelationType": "Makkah",
+      "ayahCount": 62
+    },
+    {
+      "number": 54,
+      "name": "القمر",
+      "englishName": "Al-Qamar",
+      "revelationType": "Makkah",
+      "ayahCount": 55
+    },
+    {
+      "number": 55,
+      "name": "الرحمن",
+      "englishName": "Ar-Rahmaan",
+      "revelationType": "Madinah",
+      "ayahCount": 78
+    },
+    {
+      "number": 56,
+      "name": "الواقعة",
+      "englishName": "Al-Waaqia",
+      "revelationType": "Makkah",
+      "ayahCount": 96
+    },
+    {
+      "number": 57,
+      "name": "الحديد",
+      "englishName": "Al-Hadid",
+      "revelationType": "Madinah",
+      "ayahCount": 29
+    },
+    {
+      "number": 58,
+      "name": "المجادلة",
+      "englishName": "Al-Mujaadila",
+      "revelationType": "Madinah",
+      "ayahCount": 22
+    },
+    {
+      "number": 59,
+      "name": "الحشر",
+      "englishName": "Al-Hashr",
+      "revelationType": "Madinah",
+      "ayahCount": 24
+    },
+    {
+      "number": 60,
+      "name": "الممتحنة",
+      "englishName": "Al-Mumtahana",
+      "revelationType": "Madinah",
+      "ayahCount": 13
+    },
+    {
+      "number": 61,
+      "name": "الصف",
+      "englishName": "As-Saff",
+      "revelationType": "Madinah",
+      "ayahCount": 14
+    },
+    {
+      "number": 62,
+      "name": "الجمعة",
+      "englishName": "Al-Jumu'a",
+      "revelationType": "Madinah",
+      "ayahCount": 11
+    },
+    {
+      "number": 63,
+      "name": "المنافقون",
+      "englishName": "Al-Munaafiqoon",
+      "revelationType": "Madinah",
+      "ayahCount": 11
+    },
+    {
+      "number": 64,
+      "name": "التغابن",
+      "englishName": "At-Taghaabun",
+      "revelationType": "Madinah",
+      "ayahCount": 18
+    },
+    {
+      "number": 65,
+      "name": "الطلاق",
+      "englishName": "At-Talaaq",
+      "revelationType": "Madinah",
+      "ayahCount": 12
+    },
+    {
+      "number": 66,
+      "name": "التحريم",
+      "englishName": "At-Tahrim",
+      "revelationType": "Madinah",
+      "ayahCount": 12
+    },
+    {
+      "number": 67,
+      "name": "الملك",
+      "englishName": "Al-Mulk",
+      "revelationType": "Makkah",
+      "ayahCount": 30
+    },
+    {
+      "number": 68,
+      "name": "القلم",
+      "englishName": "Al-Qalam",
+      "revelationType": "Makkah",
+      "ayahCount": 52
+    },
+    {
+      "number": 69,
+      "name": "الحاقة",
+      "englishName": "Al-Haaqqa",
+      "revelationType": "Makkah",
+      "ayahCount": 52
+    },
+    {
+      "number": 70,
+      "name": "المعارج",
+      "englishName": "Al-Ma'aarij",
+      "revelationType": "Makkah",
+      "ayahCount": 44
+    },
+    {
+      "number": 71,
+      "name": "نوح",
+      "englishName": "Nooh",
+      "revelationType": "Makkah",
+      "ayahCount": 28
+    },
+    {
+      "number": 72,
+      "name": "الجن",
+      "englishName": "Al-Jinn",
+      "revelationType": "Makkah",
+      "ayahCount": 28
+    },
+    {
+      "number": 73,
+      "name": "المزمل",
+      "englishName": "Al-Muzzammil",
+      "revelationType": "Makkah",
+      "ayahCount": 20
+    },
+    {
+      "number": 74,
+      "name": "المدثر",
+      "englishName": "Al-Muddaththir",
+      "revelationType": "Makkah",
+      "ayahCount": 56
+    },
+    {
+      "number": 75,
+      "name": "القيامة",
+      "englishName": "Al-Qiyaama",
+      "revelationType": "Makkah",
+      "ayahCount": 40
+    },
+    {
+      "number": 76,
+      "name": "الانسان",
+      "englishName": "Al-Insaan",
+      "revelationType": "Madinah",
+      "ayahCount": 31
+    },
+    {
+      "number": 77,
+      "name": "المرسلات",
+      "englishName": "Al-Mursalaat",
+      "revelationType": "Makkah",
+      "ayahCount": 50
+    },
+    {
+      "number": 78,
+      "name": "النبأ",
+      "englishName": "An-Naba",
+      "revelationType": "Makkah",
+      "ayahCount": 40
+    },
+    {
+      "number": 79,
+      "name": "النازعات",
+      "englishName": "An-Naazi'aat",
+      "revelationType": "Makkah",
+      "ayahCount": 46
+    },
+    {
+      "number": 80,
+      "name": "عبس",
+      "englishName": "Abasa",
+      "revelationType": "Makkah",
+      "ayahCount": 42
+    },
+    {
+      "number": 81,
+      "name": "التكوير",
+      "englishName": "At-Takwir",
+      "revelationType": "Makkah",
+      "ayahCount": 29
+    },
+    {
+      "number": 82,
+      "name": "الإنفطار",
+      "englishName": "Al-Infitaar",
+      "revelationType": "Makkah",
+      "ayahCount": 19
+    },
+    {
+      "number": 83,
+      "name": "المطففين",
+      "englishName": "Al-Mutaffifin",
+      "revelationType": "Makkah",
+      "ayahCount": 36
+    },
+    {
+      "number": 84,
+      "name": "الإنشقاق",
+      "englishName": "Al-Inshiqaaq",
+      "revelationType": "Makkah",
+      "ayahCount": 25
+    },
+    {
+      "number": 85,
+      "name": "البروج",
+      "englishName": "Al-Burooj",
+      "revelationType": "Makkah",
+      "ayahCount": 22
+    },
+    {
+      "number": 86,
+      "name": "الطارق",
+      "englishName": "At-Taariq",
+      "revelationType": "Makkah",
+      "ayahCount": 17
+    },
+    {
+      "number": 87,
+      "name": "الأعلى",
+      "englishName": "Al-A'laa",
+      "revelationType": "Makkah",
+      "ayahCount": 19
+    },
+    {
+      "number": 88,
+      "name": "الغاشية",
+      "englishName": "Al-Ghaashiya",
+      "revelationType": "Makkah",
+      "ayahCount": 26
+    },
+    {
+      "number": 89,
+      "name": "الفجر",
+      "englishName": "Al-Fajr",
+      "revelationType": "Makkah",
+      "ayahCount": 30
+    },
+    {
+      "number": 90,
+      "name": "البلد",
+      "englishName": "Al-Balad",
+      "revelationType": "Makkah",
+      "ayahCount": 20
+    },
+    {
+      "number": 91,
+      "name": "الشمس",
+      "englishName": "Ash-Shams",
+      "revelationType": "Makkah",
+      "ayahCount": 15
+    },
+    {
+      "number": 92,
+      "name": "الليل",
+      "englishName": "Al-Lail",
+      "revelationType": "Makkah",
+      "ayahCount": 21
+    },
+    {
+      "number": 93,
+      "name": "الضحى",
+      "englishName": "Ad-Dhuhaa",
+      "revelationType": "Makkah",
+      "ayahCount": 11
+    },
+    {
+      "number": 94,
+      "name": "الشرح",
+      "englishName": "Al-Sharh",
+      "revelationType": "Makkah",
+      "ayahCount": 8
+    },
+    {
+      "number": 95,
+      "name": "التين",
+      "englishName": "At-Tin",
+      "revelationType": "Makkah",
+      "ayahCount": 8
+    },
+    {
+      "number": 96,
+      "name": "العلق",
+      "englishName": "Al-Alaq",
+      "revelationType": "Makkah",
+      "ayahCount": 19
+    },
+    {
+      "number": 97,
+      "name": "القدر",
+      "englishName": "Al-Qadr",
+      "revelationType": "Makkah",
+      "ayahCount": 5
+    },
+    {
+      "number": 98,
+      "name": "البينة",
+      "englishName": "Al-Bayyina",
+      "revelationType": "Madinah",
+      "ayahCount": 8
+    },
+    {
+      "number": 99,
+      "name": "الزلزلة",
+      "englishName": "Az-Zalzala",
+      "revelationType": "Madinah",
+      "ayahCount": 8
+    },
+    {
+      "number": 100,
+      "name": "العاديات",
+      "englishName": "Al-Aadiyaat",
+      "revelationType": "Makkah",
+      "ayahCount": 11
+    },
+    {
+      "number": 101,
+      "name": "القارعة",
+      "englishName": "Al-Qaari'a",
+      "revelationType": "Makkah",
+      "ayahCount": 11
+    },
+    {
+      "number": 102,
+      "name": "التكاثر",
+      "englishName": "At-Takaathur",
+      "revelationType": "Makkah",
+      "ayahCount": 8
+    },
+    {
+      "number": 103,
+      "name": "العصر",
+      "englishName": "Al-Asr",
+      "revelationType": "Makkah",
+      "ayahCount": 3
+    },
+    {
+      "number": 104,
+      "name": "الهمزة",
+      "englishName": "Al-Humaza",
+      "revelationType": "Makkah",
+      "ayahCount": 9
+    },
+    {
+      "number": 105,
+      "name": "الفيل",
+      "englishName": "Al-Fil",
+      "revelationType": "Makkah",
+      "ayahCount": 5
+    },
+    {
+      "number": 106,
+      "name": "قريش",
+      "englishName": "Quraish",
+      "revelationType": "Makkah",
+      "ayahCount": 4
+    },
+    {
+      "number": 107,
+      "name": "الماعون",
+      "englishName": "Al-Maa'un",
+      "revelationType": "Makkah",
+      "ayahCount": 7
+    },
+    {
+      "number": 108,
+      "name": "الكوثر",
+      "englishName": "Al-Kawthar",
+      "revelationType": "Makkah",
+      "ayahCount": 3
+    },
+    {
+      "number": 109,
+      "name": "الكافرون",
+      "englishName": "Al-Kaafiroon",
+      "revelationType": "Makkah",
+      "ayahCount": 6
+    },
+    {
+      "number": 110,
+      "name": "النصر",
+      "englishName": "An-Nasr",
+      "revelationType": "Madinah",
+      "ayahCount": 3
+    },
+    {
+      "number": 111,
+      "name": "المسد",
+      "englishName": "Al-Masad",
+      "revelationType": "Makkah",
+      "ayahCount": 5
+    },
+    {
+      "number": 112,
+      "name": "الإخلاص",
+      "englishName": "Al-Ikhlaas",
+      "revelationType": "Makkah",
+      "ayahCount": 4
+    },
+    {
+      "number": 113,
+      "name": "الفلق",
+      "englishName": "Al-Falaq",
+      "revelationType": "Makkah",
+      "ayahCount": 5
+    },
+    {
+      "number": 114,
+      "name": "الناس",
+      "englishName": "An-Naas",
+      "revelationType": "Makkah",
+      "ayahCount": 6
+    }
+  ]
+}
